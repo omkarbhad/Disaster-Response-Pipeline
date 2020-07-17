@@ -1,0 +1,95 @@
+-------------------------------------------------------------------
+Light GBM:
+------------
+                        precision    recall  f1-score   support
+
+               related       0.85      0.94      0.89      4019
+               request       0.81      0.61      0.70       882
+                 offer       0.00      0.00      0.00        27
+           aid_related       0.76      0.68      0.72      2153
+          medical_help       0.57      0.26      0.36       408
+      medical_products       0.63      0.29      0.39       230
+     search_and_rescue       0.60      0.17      0.27       144
+              security       0.50      0.01      0.02        99
+              military       0.62      0.27      0.38       172
+           child_alone       0.00      0.00      0.00         0
+                 water       0.76      0.70      0.73       321
+                  food       0.80      0.80      0.80       576
+               shelter       0.78      0.62      0.69       451
+              clothing       0.65      0.49      0.56        70
+                 money       0.67      0.30      0.41       117
+        missing_people       0.43      0.12      0.19        48
+              refugees       0.64      0.32      0.42       158
+                 death       0.76      0.50      0.61       230
+             other_aid       0.62      0.17      0.27       692
+infrastructure_related       0.36      0.05      0.09       329
+             transport       0.64      0.24      0.34       233
+             buildings       0.65      0.36      0.46       256
+           electricity       0.60      0.28      0.38       106
+                 tools       1.00      0.02      0.05        41
+             hospitals       0.31      0.07      0.11        58
+                 shops       0.00      0.00      0.00        18
+           aid_centers       0.62      0.09      0.15        57
+  other_infrastructure       0.36      0.04      0.06       225
+       weather_related       0.85      0.72      0.78      1444
+                floods       0.86      0.54      0.67       423
+                 storm       0.75      0.66      0.70       507
+                  fire       0.38      0.10      0.15        52
+            earthquake       0.89      0.80      0.84       493
+                  cold       0.66      0.40      0.50       103
+         other_weather       0.51      0.14      0.22       265
+         direct_report       0.78      0.54      0.64      1021
+
+             micro avg       0.80      0.62      0.70     16428
+             macro avg       0.60      0.34      0.41     16428
+          weighted avg       0.76      0.62      0.66     16428
+           samples avg       0.63      0.53      0.53     16428
+
+-------------------------------------------------------------------
+
+Random Forest:
+--------------------
+                        precision    recall  f1-score   support
+
+               related       0.82      0.97      0.89      4042
+               request       0.90      0.44      0.59       945
+                 offer       0.00      0.00      0.00        24
+           aid_related       0.80      0.61      0.69      2204
+          medical_help       0.80      0.05      0.09       442
+      medical_products       0.72      0.05      0.09       284
+     search_and_rescue       0.67      0.04      0.07       152
+              security       0.00      0.00      0.00        99
+              military       0.90      0.06      0.10       162
+           child_alone       0.00      0.00      0.00         0
+                 water       0.95      0.24      0.38       345
+                  food       0.90      0.45      0.60       625
+               shelter       0.88      0.24      0.37       471
+              clothing       0.56      0.07      0.12        75
+                 money       0.60      0.02      0.05       121
+        missing_people       0.00      0.00      0.00        60
+              refugees       1.00      0.01      0.02       178
+                 death       0.84      0.10      0.18       256
+             other_aid       0.36      0.01      0.01       695
+infrastructure_related       0.00      0.00      0.00       390
+             transport       0.65      0.06      0.11       260
+             buildings       0.94      0.06      0.11       278
+           electricity       1.00      0.03      0.06        90
+                 tools       0.00      0.00      0.00        29
+             hospitals       0.00      0.00      0.00        63
+                 shops       0.00      0.00      0.00        16
+           aid_centers       0.00      0.00      0.00        73
+  other_infrastructure       0.00      0.00      0.00       280
+       weather_related       0.87      0.59      0.71      1493
+                floods       0.93      0.38      0.53       445
+                 storm       0.81      0.46      0.59       500
+                  fire       0.00      0.00      0.00        55
+            earthquake       0.91      0.69      0.78       482
+                  cold       0.75      0.06      0.11       104
+         other_weather       0.82      0.03      0.06       293
+         direct_report       0.86      0.38      0.53      1041
+
+             micro avg       0.83      0.49      0.62     17072
+             macro avg       0.56      0.17      0.22     17072
+          weighted avg       0.77      0.49      0.54     17072
+           samples avg       0.71      0.47      0.52     17072
+-------------------------------------------------------------------
