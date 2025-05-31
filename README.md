@@ -1,4 +1,4 @@
-# 🌍 Disaster Response Pipeline
+# Disaster Response Pipeline
 
 A production-grade machine learning pipeline for classifying emergency messages during natural disasters and humanitarian crises. Designed for real-world deployment, the system helps emergency response teams make informed decisions quickly by categorizing messages into actionable categories.
 
